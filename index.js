@@ -54,7 +54,7 @@ app.get("/api/:date?", function (req, res) {
     utc: inputDate.toUTCString(),
   };
 
-  // Send response
+  // Send response object
   res.json(responseObject);
 });
 /*--------------------- End ---------------------*/
